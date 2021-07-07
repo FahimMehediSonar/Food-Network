@@ -39,6 +39,7 @@ body{
     box-shadow: 3px 3px 40px gray;
     margin-left: 5%;
     margin-right: 5%;
+    padding: 5px 5px 5px 5px;
 
 }
 .recipie-details{
@@ -47,10 +48,6 @@ body{
 .recipie-item img{
     max-width: 100%;
     max-height: 100%;
-}
-#snacks-recipie img{
-    height: 30%;
-    width: 60%;
 }
 .owner-section{
     background-image: url(images/owner-bg.jpg);
@@ -64,4 +61,14 @@ body{
     background-color:yellowgreen;
     color: black;
     text-align: center;
+}
+.top-options{
+    display: flex;
+    width: 40%;
+    margin-bottom: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(red,green); 
+    border-radius: 6px;
+    color:white;
+    padding: 5px 5px;
 }
