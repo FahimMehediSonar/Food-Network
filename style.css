@@ -1,0 +1,67 @@
+span{
+    color:orangered;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-container{
+    display: flex;
+}
+.intro-section{
+   margin-bottom: 10%;
+}
+.half-width{
+    width: 50%;
+    margin-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}.link-button{
+   text-decoration: none;
+   background-image: linear-gradient(red,green); 
+   border-radius: 6px;
+   color:white;
+   padding: 5px 5px;
+}
+.owner-section{
+    margin-bottom: 10%;
+}
+.owner-section img{
+    margin: 0%;
+    width: 70%;
+}
+#owner-details h2{
+    border-radius: 5px;
+}
+
+.recipie-item{
+    width: 23.3%;
+    box-shadow: 3px 3px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.recipie-details{
+    text-align: center;
+}
+.recipie-item img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#snacks-recipie img{
+    height: 30%;
+    width: 60%;
+}
+.owner-section{
+    background-image: url(images/owner-bg.jpg);
+    background-repeat: no-repeat;
+}
+.recipie-section{
+    margin-bottom: 0%;
+}
+.footer{
+    width: 100%;
+    background-color:yellowgreen;
+    color: black;
+    text-align: center;
+}
